@@ -12,6 +12,8 @@ import { ShoppingListComponent } from './components/shopping-list/shopping-list.
 import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/shopping-edit.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { CockpitComponent } from './testComponents/part5/cockpit/cockpit.component';
+import { ServerElementComponent } from './testComponents/part5/server-element/server-element.component';
 
 @NgModule({
 
@@ -30,7 +32,9 @@ import { CommonModule } from '@angular/common';
     RecipeDetailComponent,
     RecipeItemComponent,
     ShoppingListComponent,
-    ShoppingEditComponent
+    ShoppingEditComponent,
+    CockpitComponent,
+    ServerElementComponent
   ],
   providers: [],
   bootstrap: [AppComponent],
